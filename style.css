@@ -101,6 +101,13 @@ p { opacity:0.8; line-height:1.6; }
 }
 
 /* WORKING GRID */
+/* Consistent container */
+.container {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .working-grid {
   display: grid;
   grid-template-columns: repeat(2,1fr);
